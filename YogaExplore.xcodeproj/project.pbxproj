@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7470171B251CF0E100A9BECA /* YogaExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470171A251CF0E100A9BECA /* YogaExploreApp.swift */; };
-		7470171D251CF0E100A9BECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470171C251CF0E100A9BECA /* ContentView.swift */; };
+		7470171D251CF0E100A9BECA /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470171C251CF0E100A9BECA /* StartView.swift */; };
 		7470171F251CF0E800A9BECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7470171E251CF0E800A9BECA /* Assets.xcassets */; };
 		74701722251CF0E800A9BECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74701721251CF0E800A9BECA /* Preview Assets.xcassets */; };
+		7470172A251CF53000A9BECA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74701729251CF53000A9BECA /* Color.swift */; };
+		7470172C251D02A700A9BECA /* YogaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470172B251D02A700A9BECA /* YogaTabView.swift */; };
+		7470172E251D037100A9BECA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470172D251D037100A9BECA /* MainView.swift */; };
+		74701730251D283900A9BECA /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470172F251D283900A9BECA /* ChatView.swift */; };
+		74701732251D293A00A9BECA /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74701731251D293A00A9BECA /* ArticlesView.swift */; };
+		74701734251D295B00A9BECA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74701733251D295B00A9BECA /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74701717251CF0E100A9BECA /* YogaExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7470171A251CF0E100A9BECA /* YogaExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaExploreApp.swift; sourceTree = "<group>"; };
-		7470171C251CF0E100A9BECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7470171C251CF0E100A9BECA /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		7470171E251CF0E800A9BECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74701721251CF0E800A9BECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74701723251CF0E800A9BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74701729251CF53000A9BECA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7470172B251D02A700A9BECA /* YogaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaTabView.swift; sourceTree = "<group>"; };
+		7470172D251D037100A9BECA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7470172F251D283900A9BECA /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		74701731251D293A00A9BECA /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		74701733251D295B00A9BECA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				7470171A251CF0E100A9BECA /* YogaExploreApp.swift */,
-				7470171C251CF0E100A9BECA /* ContentView.swift */,
+				7470171C251CF0E100A9BECA /* StartView.swift */,
+				7470172B251D02A700A9BECA /* YogaTabView.swift */,
+				7470172D251D037100A9BECA /* MainView.swift */,
+				7470172F251D283900A9BECA /* ChatView.swift */,
+				74701731251D293A00A9BECA /* ArticlesView.swift */,
+				74701733251D295B00A9BECA /* Settings.swift */,
+				74701729251CF53000A9BECA /* Color.swift */,
 				7470171E251CF0E800A9BECA /* Assets.xcassets */,
 				74701723251CF0E800A9BECA /* Info.plist */,
 				74701720251CF0E800A9BECA /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7470171D251CF0E100A9BECA /* ContentView.swift in Sources */,
+				7470171D251CF0E100A9BECA /* StartView.swift in Sources */,
 				7470171B251CF0E100A9BECA /* YogaExploreApp.swift in Sources */,
+				74701734251D295B00A9BECA /* Settings.swift in Sources */,
+				74701732251D293A00A9BECA /* ArticlesView.swift in Sources */,
+				7470172C251D02A700A9BECA /* YogaTabView.swift in Sources */,
+				7470172E251D037100A9BECA /* MainView.swift in Sources */,
+				74701730251D283900A9BECA /* ChatView.swift in Sources */,
+				7470172A251CF53000A9BECA /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
